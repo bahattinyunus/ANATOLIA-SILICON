@@ -1,0 +1,41 @@
+# Binary and Object files
+*.o
+*.out
+*.bin
+*.elf
+*.so
+*.a
+
+# Simulation and Build Directories
+build/
+dist/
+bin/
+sim_results/
+work/
+vsim.wlf
+*.jou
+*.log
+*.pb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Synthesis and Place & Route
+*.vcd
+*.fsdb
+*.saif
+*.vlogpy
+*.key
+*.diag
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+README_temp.md
